@@ -97,11 +97,12 @@ This is mainly a backup for when I want to reinstall Linux or when I want to use
 | Escape            | mode "default"                  | Exit power mode                  |
 | $mod+Escape       | mode "default"                  | Exit power mode                  |
 
-# Notes
+# Notes and Tips
 - odiaeresis is the keycode for ö.
+- use 'xev | grep keycode' to get the keycode for binding the fn keys
 
 # TODO
-- Add the remaining fn keys.
+- Add the F4 fn key for dual monitor configuration.
 - Add Key combination for opening VScode, firefox and nautilus and all together
 - Add buttons for these programms in the i3bars
 - Add the currently open windows to the workspaces in the i3bar

@@ -83,18 +83,18 @@ bindsym $mod+Return exec i3-sensible-terminal
 # Set fn keys
 ###############################################################################
 
-#F1 not implenented
+bindsym $mod+F1 exec --no-startup-id xdg-open https://github.com/StefansCode/i3
 bindsym XF86MonBrightnessDown exec brightnessctl set 10%-
 bindsym XF86MonBrightnessUp exec brightnessctl set +10%
-#F4 not implemented
-#F5 is used for keyboard backlight on my laptop
+#F4 calls $mod+p. I want to use it to configure dual monitors
+#F5 is used for keyboard backlight on my laptop, so no binding here
 bindsym XF86AudioMute exec amixer sset 'Master' toggle
 bindsym XF86AudioLowerVolume exec amixer sset 'Master' 5%-
 bindsym XF86AudioRaiseVolume exec amixer sset 'Master' 5%+
-#F9 not implemented
-#F10 not implemented
-#F11 not implemented
-#F12 is used for Airplane mode on my laptop and already works without a binding
+#bindsym XF86AudioPlay exec playerctl play-pause        # not working in browser
+#bindsym XF86AudioNext exec playerctl next              # not working in browser
+#bindsym XF86AudioPrev exec playerctl previous          # not working in browser
+# XF86RFKill on F12 is used for Airplane mode on my laptop and already works without a binding
 
 
 ###############################################################################
