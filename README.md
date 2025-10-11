@@ -18,13 +18,20 @@ This is mainly a backup for when I want to reinstall Linux or when I want to use
 | $mod+Return     | exec i3-sensible-terminal      | Open terminal         |
 
 ## Set fn keys
-| Key Combination      | Command                          | Description                       |
-|----------------------|----------------------------------|-----------------------------------|
-| XF86MonBrightnessDown| exec brightnessctl set 10%-      | Decrease screen brightness        |
-| XF86MonBrightnessUp  | exec brightnessctl set +10%      | Increase screen brightness        |
-| XF86AudioMute        | exec amixer sset 'Master' toggle | Mute/unmute audio                 |
-| XF86AudioLowerVolume | exec amixer sset 'Master' 5%-    | Decrease volume                   |
-| XF86AudioRaiseVolume | exec amixer sset 'Master' 5%+    | Increase volume                   |
+| Key | Actual called key    | Command                                   | Description                       |
+|-----|----------------------|-------------------------------------------|-----------------------------------|
+| F1  | $mod+F1              | ... open https://github.com/StefansCode/i3| opens README for this i3config    |
+| F2  | XF86MonBrightnessDown| exec brightnessctl set 10%-               | Decrease screen brightness        |
+| F3  | XF86MonBrightnessUp  | exec brightnessctl set +10%               | Increase screen brightness        |
+| F4  | $mod+p               | coming soon                               | coming soon                       |
+| F5  | -                    | -                                         | keyboardbackgroundlights (no key called)|
+| F6  | XF86AudioMute        | exec amixer sset 'Master' toggle          | Mute/unmute audio                 |
+| F7  | XF86AudioLowerVolume | exec amixer sset 'Master' 5%-             | Decrease volume                   |
+| F8  | XF86AudioRaiseVolume | exec amixer sset 'Master' 5%+             | Increase volume                   |
+| F9  | XF86AudioPrev        | not implemented                           |                                   |
+| F10 | XF86AudioPlay        | not implemented                           | maybe if I find a good solution for browser videos |
+| F11 | XF86AudioNext        | not implemented                           |                                   |
+| F12 | XF86RFKill           | -                                         | Airplane mode works without keybinds|
 
 ## Window management
 ### Change focus
@@ -108,3 +115,4 @@ This is mainly a backup for when I want to reinstall Linux or when I want to use
 - Add the currently open windows to the workspaces in the i3bar
 - Fix auto_split_toggle, because I just did something to disable it. I also need to figure out what it was.
 - Add pictures like in the i3 doku for my key combinations
+- remove $mod+f for fullscreen, because fn+F11 does this too
