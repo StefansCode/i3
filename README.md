@@ -1,5 +1,32 @@
 # My current i3 config
 This is mainly a backup for when I want to reinstall Linux or when I want to use it on another device.
+The mod key is the Windows key, as shown below, but I will refer to it as the mod key.
+
+
+## Keyboardlayout for all mod+key bindsyms.
+
+![Image not loaded](ressources/keyboardlayouts/keyboard-layout-mod.png "mod+key bindsyms")
+
+The missing bindsyms are:
+- mod+esc : power mode
+- mod+Up  : focus up
+- mod+Down: focus down
+
+
+## Keyboardlayout for all mod+Shift+key bindsyms.
+
+![Image not loaded](ressources/keyboardlayouts/keyboard-layout-mod+Shift.png "mod+key bindsyms")
+
+The missing bindsyms are:
+- mod+Shift+Up  : move up
+- mod+Shift+Down: move down
+
+## Other
+
+- mod+Control+Right: next workspace
+- mod+Control+Left : prev workspace
+- resize mode
+- power mode
 
 
 # Overview of all bindsym in this i3 config

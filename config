@@ -45,7 +45,7 @@ exec --no-startup-id sh -c 'xinput set-prop "SynPS/2 Synaptics TouchPad" "libinp
 exec --no-startup-id /home/stefan/.config/i3/auto_split_toggle.py
 
 # Set wallpaper
-exec --no-startup-id feh --bg-fill Pictures/wallpapers/dieschiffe.jpg
+exec --no-startup-id feh --bg-fill  ~/.config/i3/ressources/wallpapers/dieschiffe.jpg
 
 
 
