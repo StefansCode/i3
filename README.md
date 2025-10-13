@@ -137,9 +137,11 @@ The missing bindsyms are:
 
 # TODO
 - Add the F4 fn key for dual monitor configuration.
+- remove $mod+f for fullscreen, because fn+F11 does this too
 - Add Key combination for opening VScode, firefox and nautilus and all together
+
 - Add buttons for these programms in the i3bars
 - Add the currently open windows to the workspaces in the i3bar
+- add volume zu i3bar
+
 - Fix auto_split_toggle, because I just did something to disable it. I also need to figure out what it was.
-- Add pictures like in the i3 doku for my key combinations
-- remove $mod+f for fullscreen, because fn+F11 does this too
