@@ -142,6 +142,6 @@ The missing bindsyms are:
 
 - Add buttons for these programms in the i3bars
 - Add the currently open windows to the workspaces in the i3bar
-- add volume zu i3bar
+- add volume and bluetooth to i3bar
 
 - Fix auto_split_toggle, because I just did something to disable it. I also need to figure out what it was.
