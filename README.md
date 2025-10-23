@@ -50,7 +50,7 @@ The missing bindsyms are:
 | F1  | $mod+F1              | ... open https://github.com/StefansCode/i3| opens README for this i3config    |
 | F2  | XF86MonBrightnessDown| exec brightnessctl set 10%-               | Decrease screen brightness        |
 | F3  | XF86MonBrightnessUp  | exec brightnessctl set +10%               | Increase screen brightness        |
-| F4  | $mod+p               | coming soon                               | coming soon                       |
+| F4  | $mod+p               | exec arandr                               | configure 2. screen               |
 | F5  | -                    | -                                         | keyboardbackgroundlights (no key called)|
 | F6  | XF86AudioMute        | exec amixer sset 'Master' toggle          | Mute/unmute audio                 |
 | F7  | XF86AudioLowerVolume | exec amixer sset 'Master' 5%-             | Decrease volume                   |
@@ -131,12 +131,13 @@ The missing bindsyms are:
 | Escape            | mode "default"                  | Exit power mode                  |
 | $mod+Escape       | mode "default"                  | Exit power mode                  |
 
+
 # Notes and Tips
 - odiaeresis is the keycode for ö.
 - use 'xev | grep keycode' to get the keycode for binding the fn keys
 
 # TODO
-- Add the F4 fn key for dual monitor configuration.
+- Check if sound works via HDMI and if lockscreen starts when whatching something
 - remove $mod+f for fullscreen, because fn+F11 does this too
 - Add Key combination for opening VScode, firefox and nautilus and all together
 
