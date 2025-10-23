@@ -139,6 +139,8 @@ The missing bindsyms are:
 # TODO
 - Check if sound works via HDMI and if lockscreen starts when whatching something
 - remove $mod+f for fullscreen, because fn+F11 does this too
+- remove reload config since i never use it
+- add default layout 
 - Add Key combination for opening VScode, firefox and nautilus and all together
 
 - Add buttons for these programms in the i3bars
@@ -146,3 +148,5 @@ The missing bindsyms are:
 - add volume and bluetooth to i3bar
 
 - Fix auto_split_toggle, because I just did something to disable it. I also need to figure out what it was.
+
+- add copy storage and controll
