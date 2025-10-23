@@ -149,4 +149,4 @@ The missing bindsyms are:
 
 - Fix auto_split_toggle, because I just did something to disable it. I also need to figure out what it was.
 
-- add copy storage and controll
+- add copy storage and control
