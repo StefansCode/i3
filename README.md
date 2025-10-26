@@ -138,7 +138,6 @@ The missing bindsyms are:
 
 # TODO
 - Check if sound works via HDMI and if lockscreen starts when whatching something
-- remove $mod+f for fullscreen, because fn+F11 does this too
 - remove reload config since i never use it
 - Add Key combination for opening VScode, firefox and nautilus and all together
 
