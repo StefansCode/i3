@@ -1,13 +1,14 @@
-[{c:"#ff0000",t:"#808080",w:0.9667,h:0.5},"Esc",{c:"#cccccc",w:0.9667,h:0.5},"F1",{w:0.9667,h:0.5},"F2",{w:0.9667,h:0.5},"F3",{w:0.9667,h:0.5},"F4",{w:0.9667,h:0.5},"F5",{w:0.9667,h:0.5},"F6",{w:0.9667,h:0.5},"F7",{w:0.9667,h:0.5},"F8",{w:0.9667,h:0.5},"F9",{w:0.9667,h:0.5},"F10",{w:0.9667,h:
+
 mod+eine taste
 
 [{c:"#ff0000",t:"#808080",w:0.9667,h:0.5},"Esc",{c:"#cccccc",w:0.9667,h:0.5},"F1",{w:0.9667,h:0.5},"F2",{w:0.9667,h:0.5},"F3",{w:0.9667,h:0.5},"F4",{w:0.9667,h:0.5},"F5",{w:0.9667,h:0.5},"F6",{w:0.9667,h:0.5},"F7",{w:0.9667,h:0.5},"F8",{w:0.9667,h:0.5},"F9",{w:0.9667,h:0.5},"F10",{w:0.9667,h:0.5},"F11",{w:0.9667,h:0.5},"F12",{w:0.9667,h:0.5},"einfg",{w:0.9667,h:0.5},"druck",{x:-0.0005,h:0.5},"entf"],
-[{y:-0.5,w:0.75},"°\n\n^",{c:"#ff0000",t:"#000000"},"1\n\n\n\n\n\n\n\n\nmove\nto ws1","2\n\n\n\n\n\n\n\n\nmove\nto ws2","3\n\n\n\n\n\n\n\n\nmove\nto ws3","4\n\n\n\n\n\n\n\n\nmove\nto ws4","5\n\n\n\n\n\n\n\n\nmove\nto ws5","6\n\n\n\n\n\n\n\n\nmove\nto ws6","7\n\n\n\n\n\n\n\n\nmove\nto ws7","8\n\n\n\n\n\n\n\n\nmove\nto ws8","9\n\n\n\n\n\n\n\n\nmove\nto ws9","0\n\n\n\n\n\n\n\n\npower\nmode",{c:"#cccccc",t:"#808080"},"ß\n\n?","´\n\n`",{w:1.75},"Backspace","7\nHome"],
-[{w:1.25},"Tab","Q",{c:"#ff0000",t:"#000000"},"W\n\n\n\n\n\n\n\n\nlayout\ntabbed",{c:"#cccccc",t:"#808080"},"E",{c:"#ff0000",t:"#000000"},"R\n\n\n\n\n\n\n\n\nresize\nmode",{c:"#cccccc",t:"#808080"},"T","Z","U","I","O","P","Ü","*\n\n~\n\n\n\n\n\n+",{w:1.25},"#","PgDn"],
-[{w:1.75},"Caps Lock",{c:"#ff0000",t:"#000000"},"A\n\n\n\n\n\n\n\n\nfocus\nparent","S\n\n\n\n\n\n\n\n\nlayout\nstacking","D\n\n\n\n\n\n\n\n\nopen\ndmenu","F\n\n\n\n\n\n\n\n\nfull\nscreen",{c:"#cccccc",t:"#808080"},"G",{c:"#ff0000",t:"#000000"},"H\n\n\n\n\n\n\n\n\nsplit\nhorizontal",{c:"#cccccc",t:"#808080"},"J","K","L","Ö","Ä",{c:"#ff0000",t:"#000000",w:1.75},"Enter\n\n\n\n\n\n\n\n\nopen\nterminal",{c:"#cccccc",t:"#808080"},"End"],
-[{w:2},"Shift","Y","X","C",{c:"#ff0000",t:"#000000"},"V\n\n\n\n\n\n\n\n\nsplit\nvertical",{c:"#cccccc",t:"#808080"},"B","N","M",";\n\n,",":\n\n.","-\n\n_",{w:2.5},"Shift","Delete"],
-["strg","fn",{c:"#000000",t:"#ffffff",sm:"alps",w2:1.5,l:true},"Win",{c:"#cccccc",t:"#808080",w:1.5},"Alt",{c:"#ff0000",t:"#000000",a:7,w:5.5},"toggel focus floating/tiling",{c:"#cccccc",t:"#808080",a:4,w:1.5},"alr gr","<\n\n>",{c:"#ff0000",t:"#000000"},"←\n\n\n\n\n\n\n\n\nfocus\nfelt",{t:"#808080",h:0.5},"↑",{t:"#000000"},"→\n\n\n\n\n\n\n\n\nfocus\nright"],
-[{y:-0.5,x:13.5,t:"#808080",h:0.5},"↓"]
+[{y:-0.5,w:0.75},"°\n\n^",{c:"#ff0000",t:"#000000"},"1\n\n\n\n\n\n\n\n\nmove\nto ws1","2\n\n\n\n\n\n\n\n\nmove\nto ws2","3\n\n\n\n\n\n\n\n\nmove\nto ws3","4\n\n\n\n\n\n\n\n\nmove\nto ws4","5\n\n\n\n\n\n\n\n\nmove\nto ws5","6\n\n\n\n\n\n\n\n\nmove\nto ws6","7\n\n\n\n\n\n\n\n\nmove\nto ws7","8\n\n\n\n\n\n\n\n\nmove\nto ws8","9\n\n\n\n\n\n\n\n\nmove\nto ws9","0\n\n\n\n\n\n\n\n\npower\nmode",{c:"#cccccc",t:"#808080"},"ß\n\n?","´\n\n`",{w:1.75},"Backspace","pos1"],
+[{w:1.25},"Tab","Q",{c:"#ff0000",t:"#000000"},"W\n\n\n\n\n\n\n\n\nlayout\ntabbed","E\n\n\n\n\n\n\n\n\nlayout\ndefault","R\n\n\n\n\n\n\n\n\nresize\nmode",{c:"#cccccc",t:"#808080"},"T","Z","U","I","O","P","Ü","*\n\n~\n\n\n\n\n\n+",{w:1.25},"#","bild↑"],
+[{w:1.75},"Caps Lock",{c:"#ff0000",t:"#000000"},"A\n\n\n\n\n\n\n\n\nfocus\nparent","S\n\n\n\n\n\n\n\n\nlayout\nstacking","D\n\n\n\n\n\n\n\n\nopen\ndmenu",{c:"#cccccc",t:"#808080"},"F","G",{c:"#ff0000",t:"#000000"},"H\n\n\n\n\n\n\n\n\nsplit\nhorizontal",{c:"#cccccc",t:"#808080"},"J","K",{c:"#ff0000",t:"#000000"},"L\n\n\n\n\n\n\n\n\ntoggle\nlockscreen",{c:"#cccccc",t:"#808080"},"Ö","Ä",{c:"#ff0000",t:"#000000",w:1.75},"Enter\n\n\n\n\n\n\n\n\nopen\nterminal",{c:"#cccccc",t:"#808080"},"bild↓"],
+[{w:2},"Shift",{c:"#ff0000",t:"#000000"},"Y\n\n\n\n\n\n\n\n\nopen\nprogenv.",{c:"#cccccc",t:"#808080"},"X","C",{c:"#ff0000",t:"#000000"},"V\n\n\n\n\n\n\n\n\nsplit\nvertical",{c:"#cccccc",t:"#808080"},"B","N","M",";\n\n,",":\n\n.","-\n\n_",{w:2.5},"pause","ende"],
+["strg","fn",{c:"#000000",t:"#ffffff",sm:"alps",w2:1.5,l:true},"Win",{c:"#cccccc",t:"#808080",w:1.5},"Alt",{c:"#ff0000",t:"#000000",a:7,w:5.5},"toggel focus floating/tiling",{c:"#cccccc",t:"#808080",a:4,w:1.5},"alr gr","<\n\n>",{c:"#ff0000",t:"#000000"},"←\n\n\n\n\n\n\n\n\nfocus\nfelt",{h:0.5},"↑","→\n\n\n\n\n\n\n\n\nfocus\nright"],
+[{y:-0.5,x:13.5,h:0.5},"↓"]
+
 
 
 mod+Shift+eine taste

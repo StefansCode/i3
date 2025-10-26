@@ -34,15 +34,15 @@ The missing bindsyms are:
 ## i3 config shortcuts
 | Key Combination   | Command             | Description                   |
 |------------------|----------------------|-------------------------------|
-| $mod+Shift+c     | reload               | Reload i3 config              |
 | $mod+Shift+r     | restart              | Restart i3                    |
 | $mod+Shift+e     | exec "i3-nagbar ..." | Exit i3 (with confirmation)   |
 
 ## Application shortcuts
-| Key Combination | Command                        | Description           |
-|-----------------|--------------------------------|-----------------------|
-| $mod+d          | exec --no-startup-id dmenu_run | Open program launcher |
-| $mod+Return     | exec i3-sensible-terminal      | Open terminal         |
+| Key Combination | Command                             | Description           |
+|-----------------|-------------------------------------|-----------------------|
+| $mod+d          | exec --no-startup-id dmenu_run      | Open program launcher |
+| $mod+Return     | exec i3-sensible-terminal           | Open terminal         |
+| $mod+y          | exec [...]open_work_environment.py  | Open programs for programming         |
 
 ## Set fn keys
 | Key | Actual called key    | Command                                   | Description                       |
@@ -84,7 +84,6 @@ The missing bindsyms are:
 |------------------|---------------------|----------------------------------|
 | $mod+h           | split h             | Split horizontally               |
 | $mod+v           | split v             | Split vertically                 |
-| $mod+f           | fullscreen toggle   | Toggle fullscreen                |
 | $mod+s           | layout stacking     | Stacked window layout            |
 | $mod+w           | layout tabbed       | Tabbed window layout             |
 | $mod+e           | layout toggle split | Toggle split layout              |
@@ -137,10 +136,13 @@ The missing bindsyms are:
 - use 'xev | grep keycode' to get the keycode for binding the fn keys
 
 # TODO
-- Check if sound works via HDMI and if lockscreen starts when whatching something
-- Add Key combination for opening VScode, firefox and nautilus and all together
+- Check if sound works via HDMI
+- add toggle lockscreen
 
-- Add buttons for these programms in the i3bars
+- add toggle for gap size
+
+- use polybar
+- Add buttons for some programms in the i3bars
 - Add the currently open windows to the workspaces in the i3bar
 - add volume and bluetooth to i3bar
 

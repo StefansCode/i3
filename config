@@ -29,7 +29,6 @@ exec --no-startup-id dex --autostart --environment i3
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend. Use loginctl lock-session to lock your screen.
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --blur 10 --clock
-
 # set lockscreentimes
 exec --no-startup-id xset s 300 600
 exec --no-startup-id xset dpms 300 900 1800
@@ -47,6 +46,11 @@ exec --no-startup-id /home/stefan/.config/i3/auto_split_toggle.py
 # Set wallpaper
 exec --no-startup-id feh --bg-fill  ~/.config/i3/ressources/wallpapers/dieschiffe.jpg
 
+# enable window icons for all windows
+for_window [all] title_window_icon on
+
+# Set gaps between windows
+gaps inner 0px
 
 
 ################################################################################
@@ -59,7 +63,6 @@ exec --no-startup-id feh --bg-fill  ~/.config/i3/ressources/wallpapers/dieschiff
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
-
 
 
 ###############################################################################
@@ -77,6 +80,8 @@ bindsym $mod+d exec --no-startup-id dmenu_run
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
 
+# Win+Y: öffnet VSCode, Firefox, Nautilus auf WS1-3
+bindsym $mod+y exec --no-startup-id ~/.config/i3/open_work_environment.py
 
 
 ###############################################################################
@@ -139,8 +144,6 @@ bindsym $mod+h split h
 
 # split in vertical orientation
 bindsym $mod+v split v
-
-#bindsym $mod+e layout toggle split
 
 # enter fullscreen mode for the focused container
 # not needed, can use fn+f11
