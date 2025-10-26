@@ -138,7 +138,6 @@ The missing bindsyms are:
 
 # TODO
 - Check if sound works via HDMI and if lockscreen starts when whatching something
-- remove reload config since i never use it
 - Add Key combination for opening VScode, firefox and nautilus and all together
 
 - Add buttons for these programms in the i3bars
