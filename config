@@ -43,14 +43,15 @@ exec --no-startup-id sh -c 'xinput set-prop "SynPS/2 Synaptics TouchPad" "libinp
 # Auto toggle split orientation when a new window opens
 exec --no-startup-id /home/stefan/.config/i3/auto_split_toggle.py
 
-# Set wallpaper
-exec --no-startup-id feh --bg-fill  ~/.config/i3/ressources/wallpapers/dieschiffe.jpg
+# Set wallpaper and check HDMI
+exec --no-startup-id feh --bg-fill  ~/.config/i3/ressources/wallpapers/gnome.jpg
+exec --no-startup-id auto_detect_HDMI.sh
 
 # enable window icons for all windows
 for_window [all] title_window_icon on
 
 # Set gaps between windows
-gaps inner 0px
+gaps inner 10px
 
 
 ################################################################################
