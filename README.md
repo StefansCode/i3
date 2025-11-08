@@ -146,6 +146,6 @@ The missing bindsyms are:
 - Add the currently open windows to the workspaces in the i3bar
 - add volume and bluetooth to i3bar
 
-- Fix auto_split_toggle, because I just did something to disable it. I also need to figure out what it was.
+- Fix auto_split_toggle, because I just did something to disable it. I think it doesnt start when restarting the i3 config.
 
 - add copy storage and control
